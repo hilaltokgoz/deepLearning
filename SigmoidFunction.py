@@ -28,6 +28,7 @@ model.add(Dense(32,activation='relu'))
 model.add(Dense(1,activation='sigmoid'))
 
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+#loss düşükse doğruluk artar.
 #entropi dağınıklığı ölçer. Yoğunluk nerede? 0 da mı 1 de mi?
 #sigmoid function da binary.crossentropy (0-1)entropi kullanılır.
 
