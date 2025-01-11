@@ -19,7 +19,7 @@ x = x.values.astype ('float32')
 #yapay sinir ağı modeli oluşturma
 model = Sequential() 
 model.add(Dense(16)) #giriş katmanı
-model.add(Dense(32,activation='relu')) #gizli katman1
+model.add(Dense(32,activation='relu')) #gizli katman1 , relu aktivasyon kodudur.
 model.add(Dense(32,activation='relu')) #gizli katman2
 model.add(Dense(1)) #çıkış katmanı
 
